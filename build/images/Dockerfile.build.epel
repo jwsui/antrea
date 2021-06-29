@@ -1,0 +1,3 @@
+FROM antrea/antrea-ubi:2.14.0
+
+RUN yum install epel-release -y && yum install strongswan -y
